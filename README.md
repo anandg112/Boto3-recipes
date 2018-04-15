@@ -1,2 +1,2 @@
 # Boto3-recipes
-Infrastructure automation with Python Boto3 
+Cloud Infrastructure automation with Python Boto3 
