@@ -8,8 +8,8 @@ db = sys.argv[1] #name of the instance to be deleted
 rds = boto3.client('rds')
 try:
     response = rds.delete_db_instance(
-        DBInstanceIdentifier=db
+        DBInstanceIdentifier=db,
         SkipFinalSnapshot=True)
-    print response
+    print (response)
 except Exception as error:
-    print error
+    print (error)
