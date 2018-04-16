@@ -11,6 +11,6 @@ try:
         Engine='mariadb',
         AllocatedStorage=5
     )
-    print response
+    print (response)
 except Exception as error:
-    print error
+    print (error)
